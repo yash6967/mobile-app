@@ -1,0 +1,28 @@
+{
+  "name": "sales-practice-ai",
+  "version": "1.0.0",
+  "description": "AI-powered sales practice tool using MERN stack and LM Studio",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "sales",
+    "ai",
+    "practice",
+    "mern",
+    "lm-studio"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 
